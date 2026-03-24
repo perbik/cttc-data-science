@@ -6,10 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-import sys
-print(sys.executable)
-
-df = pd.read_csv("messy_sales.csv")
+df = pd.read_csv("../data/messy_sales.csv")
 df.head(10)
 
 df.info()
