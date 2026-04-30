@@ -25,7 +25,7 @@ def plot_all(df):
 
     plt.tight_layout()
 
-    # Center window (optional, depends on backend)
+    # Center window
     try:
         manager = plt.get_current_fig_manager()
         window = manager.window
